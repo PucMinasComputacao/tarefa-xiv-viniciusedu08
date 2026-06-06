@@ -2,9 +2,10 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
-    <title>Detalhes - Neymar Jr</title>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Estatísticas</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -13,9 +14,8 @@
 
     <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
-
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
         <img class="logo" src="assets/img/logo.png" />
 
@@ -45,14 +45,16 @@
       </div>
     </nav>
 
-    <main class="container mt-5" id="detalhes"></main>
+    <div class="container mt-5">
+      <h1 class="mb-4">Estatísticas da Carreira</h1>
 
+      <canvas id="graficoCarreira"></canvas>
+    </div>
+    
     <footer class="bg-dark text-white text-center p-3 mt-5">
       <p class="m-0">© 2026 - Projeto Neymar Jr</p>
     </footer>
 
-    <script src="assets/js/script.js"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/grafico.js"></script>
   </body>
 </html>
