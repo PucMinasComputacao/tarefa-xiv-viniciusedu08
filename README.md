@@ -31,9 +31,9 @@ Mapa com localização dos eventos: Especialmente útil se os eventos forem em d
  
 
 ## Informações Gerais
-
-- Nome: 
-- Matricula: 
+ 
+- Nome: Vinicius Eduardo de Souza Matos Silva
+- Matricula: 911693
 
 ## Prints do trabalho
 
